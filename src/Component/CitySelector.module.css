@@ -1,0 +1,51 @@
+.city-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .city-selector h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .dropdowns {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .dropdown {
+    width: 200px;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .result {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .highlight {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .fade {
+    color: #777;
+    font-weight: normal;
+  }
+  
